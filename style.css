@@ -2,10 +2,23 @@ body {
   background-color: #bfbae0;
 }
 
-#contenue {
+header {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#Titre {
   background-color: white;
-  width: 60%; /*Margeur de la boite*/
-  min-height: 600vh; /*Hauteur de la boite*/
+  width: 90%; /*Margeur de la boite*/
+  margin-bottom: 1em; /* Marge entre les boites*/
+  margin-left: 1em;
+  border: 0.2em solid black;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
+
+#logo {
+  background-color: white;
+  width: 10%; /*Margeur de la boite*/
   margin-bottom: 1em; /* Marge entre les boites*/
   border: 0.2em solid black;
   box-sizing: border-box; /*Bordure à l'interieur de la boite*/
@@ -16,9 +29,51 @@ main {
   justify-content: flex-start;
 }
 
+#contenue {
+  background-color: white;
+  width: 80%; /*Margeur de la boite*/
+  margin-bottom: 1em; /* Marge entre les boites*/
+  border: 0.2em solid black;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
+
+#biographie {
+  background-color: white;
+  width: 96%; /*Margeur de la boite*/
+  min-height: 60vh; /*Hauteur de la boite*/
+  margin-top: 2%; /* Marge entre les boites*/
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 0.2em solid black;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
+
+#frise {
+  background-color: white;
+  width: 96%; /*Margeur de la boite*/
+  min-height: 60vh; /*Hauteur de la boite*/
+  margin-top: 2%; /* Marge entre les boites*/
+  margin-left: 2%;
+  margin-right: 2%;
+  border: 0.2em solid black;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
+
+#citations {
+  background-color: white;
+  width: 96%; /*Margeur de la boite*/
+  min-height: 60vh; /*Hauteur de la boite*/
+  margin-top: 2%; /* Marge entre les boites*/
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  border: 0.2em solid black;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
+
 nav {
   background-color: white;
-  width: 30%; /*Margeur de la boite*/
+  width: 20%; /*Margeur de la boite*/
   min-height: 60vh; /*Hauteur de la boite*/
   max-height: 60vh;
   margin-right: 1em; /* Marge entre les boites*/
