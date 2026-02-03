@@ -80,3 +80,7 @@ nav {
   border: 0.2em solid black;
   box-sizing: border-box; /*Bordure à l'interieur de la boite*/
 }
+
+#navigation {
+  list-style: none;
+}
