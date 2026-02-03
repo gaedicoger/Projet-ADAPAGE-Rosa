@@ -1,0 +1,27 @@
+body {
+  background-color: #bfbae0;
+}
+
+#contenue {
+  background-color: white;
+  width: 60%; /*Margeur de la boite*/
+  min-height: 600vh; /*Hauteur de la boite*/
+  margin-bottom: 1em; /* Marge entre les boites*/
+  border: 0.2em solid black;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav {
+  background-color: white;
+  width: 30%; /*Margeur de la boite*/
+  min-height: 60vh; /*Hauteur de la boite*/
+  max-height: 60vh;
+  margin-right: 1em; /* Marge entre les boites*/
+  border: 0.2em solid black;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
