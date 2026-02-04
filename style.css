@@ -5,6 +5,12 @@
   --color-box: #bfd9f2;
 }
 
+/* Nivigation avec animation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mode nuit */
 @media (prefers-color-scheme: dark) {
   :root {
     --color-acab: #acab;
@@ -13,6 +19,7 @@
   }
 }
 
+/* Paramètre généraux */
 * {
   margin: 0;
   padding: 0;
@@ -36,17 +43,14 @@ main {
   justify-content: flex-start;
 }
 
-#navigation {
-  list-style: none;
+img {
+  padding-right: 0rem;
+  padding-right: 0rem;
+  border: 0.2rem solid var(--no-border, var(--color-border));
+  display: block;
 }
 
-/* .marge {
-  margin-bottom: var(--marge-bottom);
-  margin-top: var(--marge-top);
-  margin-left: var(--marge-left);
-  margin-right: var(--marge-right);
-} */
-
+/* Marge entre les paragraphes */
 #biographie * p {
   margin-bottom: 1rem;
 }
@@ -55,11 +59,39 @@ main {
   margin-bottom: 1rem;
 }
 
+/* Marge entre les boites */
+.margine {
+  margin-top: var(--marge-top);
+  margin-bottom: var(--marge-bottom);
+  margin-left: var(--marge-left);
+  margin-right: var(--marge-right);
+}
+
+/* Marge entre le texte et les bordure de boite */
+.padding {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-right);
+}
+
+/* Création des boites */
 .box {
   background-color: var(--color-box);
-  border: 0.2rem solid var(--color-border);
+  border: 0.2rem solid var(--no-border, var(--color-border));
   width: var(--box-width);
   height: var(--box-height);
-  margin: 0.3rem;
-  padding: 0.5rem;
+  margin: var(--margin, 0.3rem);
+  padding: var(--padding, 0.5rem);
+}
+
+.structure {
+  width: var(--box-width);
+  height: var(--box-height, none);
+}
+
+/* Boite de navigation qui suit l'écran */
+.sticky {
+  position: sticky;
+  top: 0.5rem;
 }
