@@ -80,3 +80,10 @@ nav {
   border: 0.2em solid black;
   box-sizing: border-box; /*Bordure à l'interieur de la boite*/
 }
+
+body {
+  background-color: black;
+  font-family:
+    "C:\Users\guewe\Documents\ADA\projet\Projet-ADAPAGE-Rosa\font\Playfair.ttf",
+    sans serif;
+}
