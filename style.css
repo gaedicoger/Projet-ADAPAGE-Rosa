@@ -31,73 +31,19 @@ header {
   justify-content: flex-start;
 }
 
-#Titre {
-  background-color: var(--color-box);
-  width: 90%; /*Margeur de la boite*/
-  margin-bottom: 1rem; /* Marge entre les boites*/
-  margin-left: 1rem;
-  border: 0.2em solid var(--color-border);
-}
-
-#logo {
-  background-color: var(--color-box);
-  width: 10%; /*Margeur de la boite*/
-  margin-bottom: 1rem; /* Marge entre les boites*/
-  border: 0.2rem solid var(--color-border);
-}
-
 main {
   display: flex;
   justify-content: flex-start;
 }
 
-#contenue {
-  background-color: var(--color-box);
-  width: 80%; /*Margeur de la boite*/
-  margin-bottom: 1rem; /* Marge entre les boites*/
-  border: 0.2rem solid var(--color-border);
-}
-
-#biographie {
-  background-color: var(--color-box);
-  width: 96%; /*Margeur de la boite*/
-  min-height: 20vh; /*Hauteur de la boite*/
-  margin-top: 2%; /* Marge entre les boites*/
-  margin-left: 2%;
-  margin-right: 2%;
-  border: 0.2rem solid var(--color-border);
-}
-
-#frise {
-  background-color: var(--color-box);
-  width: 96%; /*Margeur de la boite*/
-  min-height: 20rem; /*Hauteur de la boite*/
-  margin-top: 2%; /* Marge entre les boites*/
-  margin-left: 2%;
-  margin-right: 2%;
-  border: 0.2rem solid var(--color-border);
-}
-
-#citations {
-  background-color: var(--color-box);
-  width: 96%; /*Margeur de la boite*/
-  min-height: 20rem; /*Hauteur de la boite*/
-  margin-top: 2%; /* Marge entre les boites*/
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  border: 0.2rem solid var(--color-border);
-}
-
-nav {
-  background-color: var(--color-box);
-  width: 20%; /*Margeur de la boite*/
-  min-height: 20rem; /*Hauteur de la boite*/
-  max-height: 20rem;
-  margin-right: 1rem; /* Marge entre les boites*/
-  border: 0.2rem solid var(--color-border);
-}
-
 #navigation {
   list-style: none;
+}
+
+.box {
+  background-color: var(--color-box);
+  border: 0.2rem solid var(--color-border);
+  width: var(--box-width);
+  height: var(--box-height);
+  margin: 0.5rem;
 }
