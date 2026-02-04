@@ -47,10 +47,3 @@ main {
   height: var(--box-height);
   margin: 0.5rem;
 }
-
-body {
-  background-color: black;
-  font-family:
-    "C:\Users\guewe\Documents\ADA\projet\Projet-ADAPAGE-Rosa\font\Playfair.ttf",
-    sans serif;
-}
