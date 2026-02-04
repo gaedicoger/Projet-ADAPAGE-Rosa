@@ -21,7 +21,7 @@ L’objectif est de pratiquer :
 
 |\_\_style.css
 
-|\_\_Ada_Lovelace_portrait.jpg
+|\_\_Rosa_Luxemburg.jpg
 
 |\_\_README.md
 
