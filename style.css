@@ -1,5 +1,29 @@
+/* Variable */
+:root {
+  --color-acab: #acab;
+  --color-border: black;
+  --color-box: white;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-acab: #acab;
+    --color-border: black;
+    --color-box: grey;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+}
+
 body {
-  background-color: #bfbae0;
+  background-color: var(--color-acab);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  padding: 1rem;
 }
 
 header {
@@ -8,20 +32,18 @@ header {
 }
 
 #Titre {
-  background-color: white;
+  background-color: var(--color-box);
   width: 90%; /*Margeur de la boite*/
-  margin-bottom: 1em; /* Marge entre les boites*/
-  margin-left: 1em;
-  border: 0.2em solid black;
-  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+  margin-bottom: 1rem; /* Marge entre les boites*/
+  margin-left: 1rem;
+  border: 0.2em solid var(--color-border);
 }
 
 #logo {
-  background-color: white;
+  background-color: var(--color-box);
   width: 10%; /*Margeur de la boite*/
-  margin-bottom: 1em; /* Marge entre les boites*/
-  border: 0.2em solid black;
-  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+  margin-bottom: 1rem; /* Marge entre les boites*/
+  border: 0.2rem solid var(--color-border);
 }
 
 main {
@@ -30,55 +52,50 @@ main {
 }
 
 #contenue {
-  background-color: white;
+  background-color: var(--color-box);
   width: 80%; /*Margeur de la boite*/
-  margin-bottom: 1em; /* Marge entre les boites*/
-  border: 0.2em solid black;
-  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+  margin-bottom: 1rem; /* Marge entre les boites*/
+  border: 0.2rem solid var(--color-border);
 }
 
 #biographie {
-  background-color: white;
+  background-color: var(--color-box);
   width: 96%; /*Margeur de la boite*/
-  min-height: 60vh; /*Hauteur de la boite*/
+  min-height: 20vh; /*Hauteur de la boite*/
   margin-top: 2%; /* Marge entre les boites*/
   margin-left: 2%;
   margin-right: 2%;
-  border: 0.2em solid black;
-  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+  border: 0.2rem solid var(--color-border);
 }
 
 #frise {
-  background-color: white;
+  background-color: var(--color-box);
   width: 96%; /*Margeur de la boite*/
-  min-height: 60vh; /*Hauteur de la boite*/
+  min-height: 20rem; /*Hauteur de la boite*/
   margin-top: 2%; /* Marge entre les boites*/
   margin-left: 2%;
   margin-right: 2%;
-  border: 0.2em solid black;
-  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+  border: 0.2rem solid var(--color-border);
 }
 
 #citations {
-  background-color: white;
+  background-color: var(--color-box);
   width: 96%; /*Margeur de la boite*/
-  min-height: 60vh; /*Hauteur de la boite*/
+  min-height: 20rem; /*Hauteur de la boite*/
   margin-top: 2%; /* Marge entre les boites*/
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 2%;
-  border: 0.2em solid black;
-  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+  border: 0.2rem solid var(--color-border);
 }
 
 nav {
-  background-color: white;
+  background-color: var(--color-box);
   width: 20%; /*Margeur de la boite*/
-  min-height: 60vh; /*Hauteur de la boite*/
-  max-height: 60vh;
-  margin-right: 1em; /* Marge entre les boites*/
-  border: 0.2em solid black;
-  box-sizing: border-box; /*Bordure à l'interieur de la boite*/
+  min-height: 20rem; /*Hauteur de la boite*/
+  max-height: 20rem;
+  margin-right: 1rem; /* Marge entre les boites*/
+  border: 0.2rem solid var(--color-border);
 }
 
 #navigation {
