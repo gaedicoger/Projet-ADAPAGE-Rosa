@@ -1,8 +1,8 @@
 /* Variable */
 :root {
-  --color-acab: #acab;
+  --color-acab: #67a4e0;
   --color-border: black;
-  --color-box: white;
+  --color-box: #bfd9f2;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,10 +40,15 @@ main {
   list-style: none;
 }
 
+.marge {
+  margin-bottom: var(--marge-bottom);
+}
+
 .box {
   background-color: var(--color-box);
   border: 0.2rem solid var(--color-border);
   width: var(--box-width);
   height: var(--box-height);
-  margin: 0.5rem;
+  margin: 0.3rem;
+  padding: 0.5rem;
 }
