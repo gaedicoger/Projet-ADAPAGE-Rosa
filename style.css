@@ -40,8 +40,19 @@ main {
   list-style: none;
 }
 
-.marge {
+/* .marge {
   margin-bottom: var(--marge-bottom);
+  margin-top: var(--marge-top);
+  margin-left: var(--marge-left);
+  margin-right: var(--marge-right);
+} */
+
+#biographie * p {
+  margin-bottom: 1rem;
+}
+#biographie * h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .box {
