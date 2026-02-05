@@ -1,18 +1,27 @@
 /* Variable */
 :root {
-  --color-acab: #67a4e0;
+  --color-acab: #fbf0e9;
   --color-border: black;
-  --color-box: #bfd9f2;
+  --color-box: #ce8f8a;
+  --font-color: black;
 }
 
+/* Nivigation avec animation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Mode nuit */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-acab: #acab;
+    --color-acab: #1c2942;
     --color-border: black;
-    --color-box: grey;
+    --color-box: #0b162c;
+    --font-color: white;
   }
 }
 
+/* Paramètre généraux */
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +32,6 @@ body {
   background-color: var(--color-acab);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  padding: 1rem;
 }
 
 header {
@@ -36,19 +44,65 @@ main {
   justify-content: flex-start;
 }
 
-#navigation {
-  list-style: none;
+img {
+  padding-right: 0rem;
+  padding-right: 0rem;
+  border: 0.2rem solid var(--no-border, var(--color-border));
+  display: block;
 }
 
-.marge {
+h1 {
+  padding-left: 1rem;
+  font-size: 4rem;
+  line-height: 3rem;
+}
+
+header h3 {
+  padding-left: 1rem;
+}
+
+/* Marge entre les paragraphes */
+#biographie * p {
+  margin-bottom: 1rem;
+}
+#biographie * h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Marge entre les boites */
+.margine {
+  margin-top: var(--marge-top);
   margin-bottom: var(--marge-bottom);
+  margin-left: var(--marge-left);
+  margin-right: var(--marge-right);
 }
 
+/* Marge entre le texte et les bordure de boite */
+.padding {
+  padding-top: var(--padding-top);
+  padding-bottom: var(--padding-bottom);
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-right);
+}
+
+/* Création des boites */
 .box {
-  background-color: var(--color-box);
-  border: 0.2rem solid var(--color-border);
+  background-color: var(--couleur, var(--color-box));
+  border: 0.2rem solid var(--no-border, var(--color-border));
   width: var(--box-width);
   height: var(--box-height);
-  margin: 0.3rem;
-  padding: 0.5rem;
+  margin: var(--margin, 0.3rem);
+  padding: var(--padding, 0.5rem);
+}
+
+.structure {
+  width: var(--box-width);
+  height: var(--box-height, none);
+}
+
+/* Boite de navigation qui suit l'écran */
+.sticky {
+  position: sticky;
+  top: 0.5rem;
 }
