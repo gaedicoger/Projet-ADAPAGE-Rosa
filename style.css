@@ -1,8 +1,8 @@
 /* Variable */
 :root {
-  --color-acab: #67a4e0;
+  --color-acab: #d5cabc;
   --color-border: black;
-  --color-box: #bfd9f2;
+  --color-box: #bda18a;
 }
 
 /* Nivigation avec animation */
@@ -30,7 +30,6 @@ body {
   background-color: var(--color-acab);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  padding: 1rem;
 }
 
 header {
@@ -77,7 +76,7 @@ img {
 
 /* Création des boites */
 .box {
-  background-color: var(--color-box);
+  background-color: var(--couleur, var(--color-box));
   border: 0.2rem solid var(--no-border, var(--color-border));
   width: var(--box-width);
   height: var(--box-height);
