@@ -1,8 +1,9 @@
 /* Variable */
 :root {
-  --color-acab: #d5cabc;
+  --color-acab: #fbf0e9;
   --color-border: black;
-  --color-box: #bda18a;
+  --color-box: #ce8f8a;
+  --font-color: black;
 }
 
 /* Nivigation avec animation */
@@ -13,9 +14,10 @@ html {
 /* Mode nuit */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-acab: #acab;
+    --color-acab: #1c2942;
     --color-border: black;
-    --color-box: grey;
+    --color-box: #0b162c;
+    --font-color: white;
   }
 }
 
@@ -47,6 +49,16 @@ img {
   padding-right: 0rem;
   border: 0.2rem solid var(--no-border, var(--color-border));
   display: block;
+}
+
+h1 {
+  padding-left: 1rem;
+  font-size: 4rem;
+  line-height: 3rem;
+}
+
+header h3 {
+  padding-left: 1rem;
 }
 
 /* Marge entre les paragraphes */
