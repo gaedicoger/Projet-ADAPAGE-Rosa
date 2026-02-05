@@ -69,6 +69,18 @@ header h3 {
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
+#citations div div p {
+  margin-top: 1rem;
+}
+
+#citations div div {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#citations img {
+  margin-top: 1rem;
+}
 
 /* Marge entre les boites */
 .margine {
