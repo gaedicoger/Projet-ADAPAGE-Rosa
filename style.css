@@ -130,6 +130,24 @@ header h3 {
   top: 0.5rem;
 }
 
+.bloc-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(3, 2fr);
+  gap: 1rem;
+}
+
+.card {
+  background-color: pink;
+  font-size: 2rem;
+  border: 5px solid violet;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
 /* Création de la frise chronologique */
 
 #frise-chrono {
