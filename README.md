@@ -2,18 +2,23 @@
 
 ## Description
 
-_Cet exercice consiste à créer une page web simple en HTML et CSS présentant la vie d’Ada Lovelace._
+_Cet exercice consiste à créer une page web en HTML et CSS présentant la vie d'une personnalité au choix._
 
-L’objectif est de pratiquer :
-
-- La structure HTML de base
-- La mise en forme avec CSS commande de base
-- Accrocher une image, et du style à la page
+🎓 Compétences à acquérir
+[ ] Je sais créer une structure HTML de base
+[ ] Je sais ajouter des images et du texte dans une page HTML
+[ ] Je sais styliser une page web avec CSS
+[ ] Je sais rendre une page web responsive pour différents appareils
+[ ] Je sais definir et appliquer des styles CSS aux éléments HTML
+[ ] Je sais adapter mes balises à une taille d'écran différente
+[ ] Je sais utiliser la majorité des balises HTML de base (<div>, <section>, <img>, <p>, <h1> à <h6>, etc.)
+[ ] Je sais gérer les marges, paddings et alignements avec CSS
+[ ] Je sais gérer ma barre de navigation et le footer de ma page
 
 ## Technologies utilisées
 
 - **HTML5**
-- **CSS3**
+- **CSS**
 
 ## Structure du projet
 
@@ -22,6 +27,8 @@ L’objectif est de pratiquer :
 |\_\_style.css
 
 |\_\_Rosa_Luxemburg.jpg
+
+|\_\_Ajouter les images manquantes
 
 |\_\_README.md
 
@@ -35,14 +42,15 @@ La page contient :
 - Une image portrait
 - Sa biographie
 - Une frise chronologique
-- Ces citations
+- Les citations
 - Un footer(source/Réseaux sociaux)
 
 ## Consignes graphiques
 
-- Couleurs : rose et hotpink
-- Police : Comic Sans MS
-- Mise en page contenue centrée et menue de navigation a gauche
+- Couleurs :
+- Police :
+- Mise en page contenue centrée
+- Menu de navigation a gauche
 - Logo
 - Image
 
