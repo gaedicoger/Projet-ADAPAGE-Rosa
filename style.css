@@ -6,6 +6,7 @@
   --font-color: black;
   --color-frise: #fd4d67;
   --color-secondary: #9d3040;
+  --card-color: #cfaaa8;
 }
 
 /* Nivigation avec animation */
@@ -22,14 +23,11 @@ html {
     --font-color: white;
     --color-frise: #8a9dd4;
     --color-secondary: #6070a0;
+    --card-color: #132344;
   }
-}
-
-h1,
-h2,
-h3,
-p {
-  color: var(--font-color);
+  * {
+    color: var(--color-frise);
+  }
 }
 
 /* Paramètre généraux */
@@ -137,9 +135,9 @@ nav {
 }
 
 .card {
-  background-color: pink;
+  background-color: var(--card-color);
   font-size: 2rem;
-  border: 5px solid violet;
+  /* border: 5px solid violet; */
   text-align: center;
 }
 
