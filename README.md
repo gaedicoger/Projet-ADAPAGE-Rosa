@@ -26,9 +26,7 @@ _Cet exercice consiste à créer une page web en HTML et CSS présentant la vie 
 
 |\_\_style.css
 
-|\_\_Rosa_Luxemburg.jpg
-
-|\_\_Ajouter les images manquantes
+|\_\_dossier image
 
 |\_\_README.md
 
@@ -52,7 +50,7 @@ La page contient :
 - Mise en page contenue centrée
 - Menu de navigation a gauche
 - Logo
-- Image
+- Photos d'illustrations
 
 ## Comment lancer le projet
 
@@ -61,9 +59,9 @@ La page contient :
 
 ## Auteur·e
 
-Projet réalisé dans le cadre d’un projet ADApage HTML/CSS pour une formation de Dev FUll Stack à Ada Tech School de Nantes. Fait par Guewen, Alicia et Gaedic de la promo Gisèle<3
+Projet réalisé dans le cadre d’un projet ADApage HTML/CSS pour une formation de Dev FUll Stack à Ada Tech School de Nantes. Fait par Guéwen, Alicia et Gaédic de la promo Gisèle <3
 
 ## Sources
 
-- Portrait de Rosa luxemburg
-- Informations générales sur sa biographie (texte trouver par les auteurs)
+- Portrait de Rosa luxemburg.
+- Informations générales sur sa biographie wikipédia.
