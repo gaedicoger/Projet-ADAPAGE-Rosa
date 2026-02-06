@@ -50,11 +50,6 @@ header {
   justify-content: flex-start;
 }
 
-main {
-  display: flex;
-  justify-content: flex-start;
-}
-
 img {
   padding-right: 0rem;
   padding-right: 0rem;
@@ -70,6 +65,10 @@ h1 {
 
 header h3 {
   padding-left: 1rem;
+}
+
+nav {
+  font-size: 0.7rem;
 }
 
 /* Marge entre les paragraphes */
@@ -148,8 +147,9 @@ footer {
   text-align: center;
   padding: 1.5rem;
   margin-top: 3rem;
-/* Création de la frise chronologique */
+}
 
+/* Création de la frise chronologique */
 #frise-chrono {
   display: grid;
   grid-template-columns: 2fr 2% 2fr;
@@ -181,9 +181,19 @@ footer {
 
 /* Media queries */
 
+main {
+  display: flex;
+  justify-content: flex-start;
+}
+
 @media screen and (min-width: 1024px) {
   h1 {
     font-size: 4rem;
+  }
+
+  main {
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
@@ -191,10 +201,19 @@ footer {
   h1 {
     font-size: 3rem;
   }
+  main {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
   h1 {
     font-size: 2rem;
+  }
+  .bloc-cards {
+    grid-template-columns: repeat(1, 2fr);
+
+    grid-template-rows: repeat(6, 2fr);
   }
 }
