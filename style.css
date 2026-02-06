@@ -4,6 +4,8 @@
   --color-border: black;
   --color-box: #ce8f8a;
   --font-color: black;
+  --color-frise: #fd4d67;
+  --color-secondary: #9d3040;
 }
 
 /* Nivigation avec animation */
@@ -18,6 +20,8 @@ html {
     --color-border: black;
     --color-box: #0b162c;
     --font-color: white;
+    --color-frise: #8a9dd4;
+    --color-secondary: #6070a0;
   }
 }
 
@@ -105,4 +109,55 @@ header h3 {
 .sticky {
   position: sticky;
   top: 0.5rem;
+}
+
+/* Création de la frise chronologique */
+
+#frise-chrono {
+  display: grid;
+  grid-template-columns: 2fr 2% 2fr;
+  grid-template-rows: repeat(5, 3fr);
+}
+
+.item {
+  grid-column: var(--colonne);
+  grid-row: var(--ligne);
+  border-bottom: 5px solid var(--color-frise);
+  border-radius: 20%;
+  text-align: center;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.col-bg {
+  grid-column: 2 / 3;
+  grid-row: 1 / -1;
+  background-color: var(--color-frise);
+}
+
+.dates {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-secondary);
+}
+
+/* Media queries */
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
